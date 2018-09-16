@@ -80,6 +80,19 @@ darknet_root/
     　│　└ yolov3.cfg
 ```
 
+Place these files in model dir.
+```
+current_dir/  
+    　│
+    　├ make_annotaion.py  
+    　├ data/  
+	　├ utils/  
+    　├ model/  
+    　│　└ yolov3.cfg
+　    │　└ yolov3.weights
+　    │　└ coco.names
+```
+
 # Usage
 ```
 python make_annotaion.py <img_dir>
